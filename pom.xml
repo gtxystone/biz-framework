@@ -7,23 +7,15 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <distributionManagement>
-    <site>
-      <id>website</id>
-      <url>scp://webhost.company.com/www/website</url>
-    </site>
-  </distributionManagement>
-
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <modules>
-    <module>biz-framework-commons</module>
     <module>biz-framework-data</module>
-    <module>biz-framework-exceptions</module>
     <module>biz-framework-service</module>
     <module>biz-framework-common</module>
     <module>biz-framework-web</module>
     <module>biz-framework-exception</module>
+    <module>biz-framework-generator</module>
   </modules>
 </project>
